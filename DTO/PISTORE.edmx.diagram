@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d693b8e7329f4409a6d6155fdb044668" Name="Diagram1">
+        <EntityTypeShape EntityType="PISTOREModel.BILL" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PISTOREModel.CLIENT" Width="1.5" PointX="0.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PISTOREModel.Employee" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PISTOREModel.ORDERITEM" Width="1.5" PointX="8.25" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PISTOREModel.ORDER" Width="1.5" PointX="6" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PISTOREModel.PRODUCT" Width="1.5" PointX="6" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PISTOREModel.sysdiagram" Width="1.5" PointX="0.75" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PISTOREModel.User" Width="1.5" PointX="1.5" PointY="2" IsExpanded="true" />
+        <AssociationConnector Association="PISTOREModel.FK__BILL__BILLDATE__787EE5A0" ManuallyRouted="false" />
+        <AssociationConnector Association="PISTOREModel.FK__BILL__cID__797309D9" ManuallyRouted="false" />
+        <AssociationConnector Association="PISTOREModel.FK__BILL__eID__7A672E12" ManuallyRouted="false" />
+        <AssociationConnector Association="PISTOREModel.FK__ORDERS__cID__6FE99F9F" ManuallyRouted="false" />
+        <AssociationConnector Association="PISTOREModel.FK__Employee__UserID__6B24EA82" ManuallyRouted="false" />
+        <AssociationConnector Association="PISTOREModel.FK__ORDERS__eID__70DDC3D8" ManuallyRouted="false" />
+        <AssociationConnector Association="PISTOREModel.FK__ORDERITEM__oID__73BA3083" ManuallyRouted="false" />
+        <AssociationConnector Association="PISTOREModel.FK__ORDERITEM__pID__74AE54BC" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
